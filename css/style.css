@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Clicker+Script');
-@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps');
+
+
 /* CSS Syntax
 
   selector {
@@ -23,4 +25,10 @@ figcaption {
   font: normal 0.75em/1.5em 'Clicker Script', cursive;
   color: 777;
   text-align: right;
+}
+
+/*Class selector (applied to as many elements as you like)*/
+
+/*.milk-text { select elements with class="milk-text"*/
+  font: bold 2.6em
 }
