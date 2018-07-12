@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Clicker+Script');
-@import url('https://fonts.googleapis.com/css?family=Clicker+Script|Elsie+Swash+Caps');
+@import url('https://fonts.googleapis.com/css?family=Elsie+Swash+Caps');
 
 
 /* CSS Syntax
@@ -35,4 +35,17 @@ figcaption {
   text-shadow: 0 2px 3px #000
 }
 
-/* ID selector
+/* ID selector (apply to one unique element per page) */
+
+#logo {/* select elements with id="logo" */
+background: aqua;
+}
+
+/* Descendent Selector */
+
+#logo h1 { /* selects <h1> if inside the id="logo" */
+  font-family: 'Clicker Script', cursive;
+}
+#logo h2 { /* selects <h2> if inside the id="logo" */
+  font-family: 'Elsie Swash Caps', cursive;
+}
